@@ -6,6 +6,22 @@
 # K-means algoritması
 # Uzaklık hesabında öklid formülü kullanılmıştır.
 
+## kullanıcı dosya seçim işlemi için kütüphaneler
+# import openpyxl
+# from tkinter import Tk
+# from tkinter.filedialog import askopenfilename
+
+## Excel Tablosunun Kullanıcıdan Alınması
+# #dosya seçim pencerisinin açılması
+# root = Tk()
+# root.withdraw()
+## excel dosyasını alma
+# file_path = askopenfilename(filetypes=[("Excel", "*.xlsx")])
+# data = pd.read_excel(file_path)
+
+## Excel Tablosunun Otomatik Alınması 
+#data = pd.read_excel('data.xlsx')
+
 import numpy as np
 
 
